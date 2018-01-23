@@ -76,6 +76,9 @@ while True:
 		else: io.error("Invalid argument given.")
 
 	# NET COMMANDS
+	if argv[0] == "net" and args == 2:
+		if argv[1] == "help" or argv[1] == "-h":
+			net.help()
 	if argv[0] == "net" and args == 3:
 		if argv[1] == "check" or argv[1] == "-c":
 			io.quote("Checking host status...")
