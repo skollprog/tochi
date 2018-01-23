@@ -1,0 +1,25 @@
+intitle:"Index Of" intext:sftp-config.json
+intitle:"Index Of" intext:users.json
+intitle:"Index Of" intext:db.json
+intitle:"Index Of" intext:accounts.json
+intitle:"Index Of" intext:config.json
+intitle:"Index Of" intext:data.json
+intitle:"Index Of" intext:member.json
+intitle:"Index Of" inurl:data/
+intitle:"Index Of" inurl:access/
+intitle:"Index Of" inurl:private/
+inurl:accounts.sql
+inurl:members.sql
+inurl:users.sql
+inurl:access.sql
+inurl:accesses.sql
+inurl:private.sql
+inurl:”/wp-content/plugins/wp-password/login.php”
+inurl:"/jde/E1Menu.maf"
+"login: *" "password: *" filetype:xls site:com.*
+inurl:/wwwboard/passwd.txt
+inurl:/passwd.txt
+inurl:/accounts.txt
+inurl:/members.txt
+inurl:/users.txt
+inurl:/keys.txt

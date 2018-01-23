@@ -22,7 +22,9 @@ while True:
 
 	# GOOGLE DORKING
 	if argv[0] == "dork" and args == 2:
-		if argv[1] == "files" or argv[1] == "-f":
+		if argv[1] == "help" or argv[1] == "-h":
+			dork.help()
+		elif argv[1] == "files" or argv[1] == "-f":
 			temp = dork.files()
 			if temp == ":no-files":
 				io.error("No file was not found.")
@@ -51,15 +53,26 @@ while True:
 					elif _input == "no" or _input == "n":
 						print("")
 						break
-		else: io.error("Invalid argument given.")
-	elif argv[0] == "dork" and args == 5:
-		if argv[1] == "use" or argv[1] == "-u":
-			temp = dork.use(argv[3], int(argv[2]), argv[4])
+		elif argv[1] == "custom" or argv[1] == "-c":
+			temp = dork.use("custom", int(argv[2]), "*")
 			if temp == ":no-file": io.error("File doesn't exists.")
 			elif temp == ":no-dork": io.error("No dork was found.")
 			elif temp == ":dork-error":
 				io.prevline(2)
 				io.error("There was an error, try again.")
+			else:
+				dork.analize(temp)
+		else: io.error("Invalid argument given.")
+	elif argv[0] == "dork" and args == 5:
+		if argv[1] == "use" or argv[1] == "-u":
+			temp = dork.use(argv[2], int(argv[3]), argv[4])
+			if temp == ":no-file": io.error("File doesn't exists.")
+			elif temp == ":no-dork": io.error("No dork was found.")
+			elif temp == ":dork-error":
+				io.prevline(2)
+				io.error("There was an error, try again.")
+			else:
+				dork.analize(temp)
 		else: io.error("Invalid argument given.")
 
 	# NET COMMANDS

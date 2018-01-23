@@ -1,0 +1,51 @@
+"SiteBar Bookmark Manager" inurl:index.php?w=
+inurl:"test/php/test.html" Plesk File
+inurl:demo.browse.php intitle:getid3
+allinurl:forcedownload.php?file=
+inurl:"simplenews/admin"
+inurl:cartwiz/store/index.asp
+intext:"/wp-content/uploads/wpsc/"
+intitle:index.of .bashrc
+intext:"index of /userfiles/file/"
+inurl:/wp-content/plugins/seo-pressor/classes/
+inurl:/sym/root/ intitle:index.of
+intext:"Index of /database"
+intext:"Index of /.git"
+intitle:index.of intext:viewvc
+index of /htdocs
+inurl:admin inurl:uploads
+inurl:pictures intitle:index.of
+inurl:trash intitle:index.of
+inurl:.ssh intitle:index.of authorized_keys
+inurl:/sites/default/files/webform/
+inurl:safm.asp ext:asp
+intitle: Index of /awstats/data
+inurl:/server/webapps
+intitle:index.of.mail
+inurl:pipermail intitle:index.of parent
+inurl:"wp-content/uploads/private"
+filetype:pdf
+inurl:exposing inbody:invisible
+exposing feed:rss
+inurl:"nfs://www." "index of /"
+intext:/wp-content/plugins/woocommerce/templates/emails/plain/
+intitle:"Index of /" "joomla_update.php"
+inurl:"/drive/folders/" site:drive.google.com
+inurl:"folderview?id=" site:drive.google.com
+"Index of" inurl:"/$Recycle.Bin/"
+inurl:/fckeditor/editor/plugins/ajaxfilemanager/ajaxfilemanager.php
+index:"html/js/editor/fckeditor/editor/filemanager/connectors"
+inurl:/FCKeditor/editor/filemanager/upload/
+inurl:".esy.es/default.php"
+(intext:"index of /.git") ("parent directory")
+inurl:guestbook/guestbooklist.asp "Post Date" From
+intitle:"Control panel" "Control Panel Login" ArticleLive inurl:admin -demo
+PHPFreeNews inurl:Admin.php
+inurl:nquser.php filetype:php
+inurl:cgi-bin inurl:bigate.cgi
+filetype:pl -intext:"/usr/bin/perl" inurl:webcal (inurl:webcal | inurl:add | inurl:delete | inurl:config)
+filetype:mdb inurl:"news/news"
+inurl:php.exe filetype:exe -example.com
+ext:asp inurl:DUgallery intitle:"3.0" -site:dugall
+filetype:cgi inurl:cachemgr.cgi
+intitle:"phpremoteview" filetype:php "Name, Size,

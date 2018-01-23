@@ -1,0 +1,21 @@
+inurl://.php?id='1 site:il "id=" &amp; intext:"Warning: mysql_result() site:il intext:"warning mysql_fetch_array()" site:il intext:"You have an error in your SQL syntax" site:il
+inurl:"id=" & intext:"Warning: preg_match() " site:.il
+inurl:"id=" & intext:"Warning: ilesize() " site:.co.il
+inurl:"id=" & intext:"Warning: filesize() " site:.co.il
+inurl:"id=" & intext:"Warning: require() " site:.co.il
+inurl:"id=" & intext:"Warning: mysql_fetch_assoc() " site:.co.il
+inurl:"id=" & intext:"Warning: mysql_fetch_assoc() " site:.co.il
+inurl:"id=" & intext:"Warning: mysql_fetch_assoc() " site:.co.il
+inurl:"id=" & intext:"Warning: mysql_fetch_array() " site:il
+inurl:"id=" & intext:"Warning: mysql_num_rows() " site:.co.il
+inurl:"id=" & intext:"Warning: session_start() " site:.il
+inurl:"id=" & intext:"Warning: getimagesize() " site:.co.il
+inurl:"id=" & intext:"Warning: is_writable() " site:.il
+inurl:"id=" & intext:"Warning: getimagesize() " site:.co.il
+inurl:"id=" & intext:"Warning: Unknown() " site:.il
+inurl:"id=" & intext:"Warning: session_start() " site:.il
+inurl:"id=" & intext:"Warning: mysql_result() " site:.il
+inurl:"id=" & intext:"Warning: pg_exec() " site:.il
+inurl:"id=" & intext:"Warning: mysql_result() " site:.il
+inurl:"id=" & intext:"Warning: mysql_num_rows() " site:.il
+inurl:"id=" & intext:"Warning: mysql_query() " site:.il inurl:"id=" & intext:"Warning: array_merge() " site:.co.il
