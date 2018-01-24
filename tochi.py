@@ -2,6 +2,7 @@ from lib.app import *
 from lib.io import *
 from lib.hue import *
 from lib.host import *
+from lib.dork import *
 endl = "\n"
 last = ""
 
@@ -19,14 +20,17 @@ while True:
 	argv = _input.split(" ")
 	args = len(argv)
 
-	if args > 1:
+	# Host command
+	if argv[0] == "host" and args == 2:
+		if argv[1] == "help" or argv[1] == "-h":
+			host.help()
+	if argv[0] == "host" and args == 3:
+		if argv[1] == "address" or argv[1] == "-a":
+			host.address(argv[2])
+		elif argv[1] == "status" or argv[1] == "-s":
+			host.status(argv[2])
 
-		# Host command
-		if argv[0] == "host" and args == 2:
-			if argv[1] == "help" or argv[1] == "-h":
-				host.help()
-		if argv[0] == "host" and args == 3:
-			if argv[1] == "address" or argv[1] == "-a":
-				host.address(argv[2])
-			elif argv[1] == "status" or argv[1] == "-s":
-				host.status(argv[2])
+	# Google dorking
+	if argv[0] == "dork" and args == 2:
+		if argv[1] == "help" or argv[1] == "-h":
+			dork.help()
