@@ -1,53 +1,9 @@
 from lib.io import *
 from lib.file import *
 from lib.hue import *
-from requests import post, get
-from html.parser import HTMLParser
-from html.entities import name2codepoint
 endl = "\n"
 
-'''
-class MyHTMLParser(HTMLParser):
-    def handle_starttag(self, tag, attrs):
-        print("Start tag:", tag)
-        for attr in attrs:
-            print("     attr:", attr)
-
-    def handle_endtag(self, tag):
-        print("End tag  :", tag)
-
-    def handle_data(self, data):
-        print("Data     :", data)
-        if data[0:7] == "http://" or data[0:8] == "https://":
-        	print(data)
-
-    def handle_comment(self, data):
-        print("Comment  :", data)
-
-    def handle_entityref(self, name):
-        c = chr(name2codepoint[name])
-        print("Named ent:", c)
-
-    def handle_charref(self, name):
-        if name.startswith('x'):
-            c = chr(int(name[1:], 16))
-        else:
-            c = chr(int(name))
-        print("Num ent  :", c)
-
-    def handle_decl(self, data):
-        print("Decl     :", data)
-'''
-
-class MyHTMLParser(HTMLParser):
-    def handle_starttag(self, tag, attrs):
-        for attr in attrs:
-            dork._buffr.append(attr)
-    def handle_data(self, data):
-        dork._buffr.append(data)
-        
 class dork:
-	_buffr = []
 	google = "http://google.com/search"
 	page = 0
 
