@@ -45,4 +45,4 @@ class host:
 			url = socket.gethostbyname(url)
 			io.info("Host is online.")
 		except:
-			io.error("Unable to detect IP address.")
+			io.error("Host is not responding.")
