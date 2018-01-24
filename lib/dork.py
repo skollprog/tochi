@@ -67,7 +67,7 @@ class dork:
 						io.quote("Dork: " + fore.magenta + _dork + fore.white)
 						io.prevline(1)
 						if not dork.search(_dork):
-							io.prevline(1)
+							io.prevline(2)
 							io.error("No results gathered.")
 						i = -1
 						break
