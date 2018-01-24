@@ -44,7 +44,7 @@ class dork:
 	def search(query):
 		_google = "https://www.googleapis.com/customsearch/v1"
 		_params = {
-			"key": "AIzaSyD8hVTlMJdWJYOscC9wso1Cvcs1UhyxDS8",
+			"key": "AIzaSyANm8farYg7FBUl49FRSMDURp4a7VDEyEY",
 			"cx": "017576662512468239146:omuauf_lfve",
 			"q": query
 		}
