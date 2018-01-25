@@ -4,6 +4,7 @@ from lib.hue import *
 from requests import get
 from urllib import parse
 from json import loads
+import time
 endl = "\n"
 
 class dork:
@@ -84,6 +85,7 @@ class dork:
 				i = 0
 				for _dork in content:
 					if dork.search(_dork): i += 1
+					time.sleep(5)
 				if i == 0:
 					io.prevline(2)
 					io.error("No results gathered.")
